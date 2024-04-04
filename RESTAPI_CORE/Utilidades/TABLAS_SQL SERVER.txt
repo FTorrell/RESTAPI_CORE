@@ -1,0 +1,20 @@
+﻿INSERT INTO DeviceType ([Description],DisplayName) values
+('Tipo 01','Tipo 01'),
+('Tipo 02','Tipo 02'),
+('Tipo 03','Tipo 03'),
+('Tipo 04','Tipo 04')
+
+
+INSERT INTO Device(DeviceTypeId,DisplayName,ControllerId,[Enabled]) values
+(1,'Impresora 01',1,'True'),
+(1,'Impresora 02',2,'True'),
+(2,'Impresora 03',1,'True'),
+(2,'Impresora 04',2,'False'),
+(3,'Impresora 05',1,'True'),
+(4,'Impresora 06',2,'True'),
+(4,'Impresora 07',2,'True'),
+(3,'Impresora 08',1,'False'),
+(2,'Impresora 09',1,'True'),
+(1,'Impresora 10',2,'True'),
+(3,'Impresora 11',1,'False'),
+(4,'Impresora 12',2,'True')
